@@ -4,9 +4,9 @@ def common_elements(set_1, set_2):
 
     """
     A function that returns a set of 
-    common elements in two sets
+    common elements in two setis
 
     """
 
-    return set_1 & set_2
+    return(set_1 & set_2)
 
