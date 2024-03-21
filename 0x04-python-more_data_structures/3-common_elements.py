@@ -4,7 +4,7 @@ def common_elements(set_1, set_2):
 
     """
     A function that returns a set of 
-    common elements in two setis
+    common elements in two sets
 
     """
 
