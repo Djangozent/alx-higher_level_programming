@@ -11,17 +11,17 @@ def list_division(my_list_1, my_list_2, list_length):
         new list of length list_length containing all dividions
     """
     new_list = []
-    for i in range(0, list_length):
+    for i in range(list_length):
         try:
             div = my_list_1[i] / my_list_2[i]
         except TypeError:
-            print("Wrong type")
+            print("wrong type")
             div = 0
         except ZeroDivisionError:
-            print("Division by 0")
+            print("division by 0")
             div = 0
         except IndexError:
-            print("Out of range")
+            print("out of range")
             div = 0
         finally:
             new_list.append(div)
