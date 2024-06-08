@@ -11,9 +11,9 @@ def list_division(my_list_1, my_list_2, list_length):
         new list of length list_length containing all dividions
     """
     new_list = []
-    for i in range(list_length):
+    for item in range(list_length):
         try:
-            div = my_list_1[i] / my_list_2[i]
+            div = my_list_1[item] / my_list_2[item]
         except TypeError:
             print("wrong type")
             div = 0
